@@ -108,7 +108,7 @@ reduceFatFast :: Number -> Medicamento -> Medicamento
 reduceFatFast potencia medicamento = (agregarAlcachofa medicamento)^3
 
 agregarAlcachofa :: Medicamento -> Medicamento
-agregarAlcachofa medicamento = alcachofa:medicamento
+agregarAlcachofa medicamento = alcachofa : medicamento
 -}
 
 --PdeP Cilina
