@@ -105,9 +105,10 @@ Hacer el reduceFatFast, (que viene en distintas potencias) y es un medicamento c
 Por ejemplo administrándole a Huesudo un reduceFatFast de potencia 1 hace que huesudo pase a pesar 9 kg y sólo quede con sinusitis. Si en lugar de la 1 le administramos un reduceFatFast de potencia 2, pasa a pesar 8.1 kg y queda también solo con sinusitis.
 
 reduceFatFast :: Number -> Medicamento -> Medicamento
-reduceFatFast potencia medicamento = (agregarAlcachofa medicamento) 
+reduceFatFast potencia medicamento = (agregarAlcachofa medicamento)^3
 
 agregarAlcachofa :: Medicamento -> Medicamento
+agregarAlcachofa medicamento = alcachofa:medicamento
 -}
 
 --PdeP Cilina
